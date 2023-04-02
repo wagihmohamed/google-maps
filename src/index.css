@@ -4,3 +4,10 @@
   box-sizing: border-box;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+
+.custom-label-class {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 80px;
+}

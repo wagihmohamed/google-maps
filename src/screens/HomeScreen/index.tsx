@@ -24,7 +24,11 @@ export const HomeScreen = () => {
         position={center}
         icon={{
           url: 'https://mui.com/static/images/avatar/1.jpg',
-          scaledSize: { width: 32, height: 32, equals: () => true },
+          scaledSize: { width: 72, height: 72, equals: () => false },
+        }}
+        label={{
+          text: 'Tahrir Square',
+          className: 'custom-label-class',
         }}
       />
     </GoogleMap>
